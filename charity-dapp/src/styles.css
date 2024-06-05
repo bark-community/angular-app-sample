@@ -1,0 +1,70 @@
+/* You can add global styles to this file, and also import other style files */
+:root, .light, .light-theme {
+    --orange-1: #fefcfc;
+    --orange-2: #fdf9f7;
+    --orange-3: #fbece7;
+    --orange-4: #fedfd4;
+    --orange-5: #f9d1c3;
+    --orange-6: #f2c2b0;
+    --orange-7: #e9af99;
+    --orange-8: #de977d;
+    --orange-9: #ad3e00;
+    --orange-10: #983400;
+    --orange-11: #bf4f1c;
+    --orange-12: #552d1e;
+  
+    --orange-a1: #aa000003;
+    --orange-a2: #c0400008;
+    --orange-a3: #d5360018;
+    --orange-a4: #fa42012b;
+    --orange-a5: #e63c003c;
+    --orange-a6: #d63b004f;
+    --orange-a7: #c8370066;
+    --orange-a8: #bf330082;
+    --orange-a9: #ad3e00;
+    --orange-a10: #983400;
+    --orange-a11: #b73900e3;
+    --orange-a12: #3e1100e1;
+  
+    --orange-contrast: #fff;
+    --orange-surface: #fdf8f5cc;
+    --orange-indicator: #ad3e00;
+    --orange-track: #ad3e00;
+  }
+  
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      :root, .light, .light-theme {
+        --orange-1: oklch(99.4% 0.002 41.51);
+        --orange-2: oklch(98.4% 0.006 41.51);
+        --orange-3: oklch(95.4% 0.017 41.51);
+        --orange-4: oklch(92.6% 0.037 41.51);
+        --orange-5: oklch(89.2% 0.05 41.51);
+        --orange-6: oklch(85.2% 0.061 41.51);
+        --orange-7: oklch(80.3% 0.075 41.51);
+        --orange-8: oklch(74.1% 0.094 41.51);
+        --orange-9: oklch(51.4% 0.157 41.51);
+        --orange-10: oklch(46.5% 0.157 41.51);
+        --orange-11: oklch(56.7% 0.157 41.51);
+        --orange-12: oklch(34.6% 0.063 41.51);
+  
+        --orange-a1: color(display-p3 0.675 0.024 0.024 / 0.012);
+        --orange-a2: color(display-p3 0.635 0.267 0.02 / 0.032);
+        --orange-a3: color(display-p3 0.702 0.227 0.012 / 0.091);
+        --orange-a4: color(display-p3 0.855 0.247 0.004 / 0.161);
+        --orange-a5: color(display-p3 0.796 0.227 0.004 / 0.228);
+        --orange-a6: color(display-p3 0.725 0.227 0.004 / 0.299);
+        --orange-a7: color(display-p3 0.686 0.208 0.004 / 0.385);
+        --orange-a8: color(display-p3 0.659 0.192 0.004 / 0.491);
+        --orange-a9: color(display-p3 0.584 0.192 0 / 0.899);
+        --orange-a10: color(display-p3 0.51 0.161 0 / 0.914);
+        --orange-a11: color(display-p3 0.631 0.2 0 / 0.828);
+        --orange-a12: color(display-p3 0.212 0.063 0 / 0.871);
+  
+        --orange-contrast: #fff;
+        --orange-surface: color(display-p3 0.992 0.973 0.961 / 0.8);
+        --orange-indicator: oklch(51.4% 0.157 41.51);
+        --orange-track: oklch(51.4% 0.157 41.51);
+      }
+    }
+  }
